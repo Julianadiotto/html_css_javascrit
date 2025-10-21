@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo com função de conversão!</title>
+</head>
+<body>
+    <header>
+        <h1>Chão de vidro.</h1>
+        <p>Você tem 6 pontes para atravessar!</p>
+        <p>Você precisa escolher um número, mas cuidado, <em>se o número escolhido for de vidro você perde o jogo.</em>
+        </p>
+    </header>        
+        <section>
+        <div id="msg">
+            <p id="contador">Ponte número: 1</p>
+            <p  class="res" id="resultado"></p>
+            <p id="mensagemFinal"></p>
+        </div>  
+        <div id="escolha">
+            <p id="pEscolha">Escolha um número de 1 a 6 para atravessar a ponte:</p>
+            <input type="number" name="inputEscolha" id="inputEscolha"><br>
+            <button id="btnVerificar" type="button">Verificar</button>
+        </div>
+            
+        <div>
+            <button id="btnReiniciar" type="button">Reiniciar</button><br/>
+            <a href="index.html"  rel="prev">voltar</a>
+        </div>        
+    </section>        
+    <footer>
+        <p>Meu portfólio - 2025</p>
+    </footer>       
+    <script src="script.js"></script>
+</body>
+</html>
