@@ -1,2 +1,4 @@
 # html_css_javascrit
-estudos
+Criação de um site e um jogo para estudo.
+
+
